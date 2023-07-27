@@ -22,7 +22,6 @@ const useHttp = () => {
         if (!data.results) {
           return setErrorMessage(data.message);
         }
-        console.log(data);
 
         const movieList = data.results.map((movie) => {
           // Sửa trường title, backdrop_path, poster_path cho movie list

@@ -10,7 +10,7 @@ const SearchForm = (props) => {
     genre: '',
     mediaType: 'all',
     language: '',
-    year: new Date().getFullYear(),
+    year: '',
   });
 
   const inputSearchChange = (input, value) => {
@@ -29,7 +29,7 @@ const SearchForm = (props) => {
         genre: '',
         mediaType: 'all',
         language: '',
-        year: new Date().getFullYear(),
+        year: '',
       });
 
       // Truyền value cho component cha (component Search)
