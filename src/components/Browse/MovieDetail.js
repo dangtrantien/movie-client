@@ -17,7 +17,8 @@ const MovieDetail = (props) => {
     props.movie;
 
   useEffect(() => {
-    const requestAPI = '/api/movies/video?token=8qlOkxz4wq';
+    const requestAPI =
+      'https://movie-server-xp1w.onrender.com/api/movies/video?token=8qlOkxz4wq';
 
     setMovieDetail({
       id,

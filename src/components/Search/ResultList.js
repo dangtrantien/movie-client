@@ -37,7 +37,8 @@ const ResultList = (props) => {
     }
 
     if (keyword) {
-      const requestAPI = '/api/movies/search?page=&token=8qlOkxz4wq';
+      const requestAPI =
+        'https://movie-server-xp1w.onrender.com/api/movies/search?page=&token=8qlOkxz4wq';
 
       sendRequest({
         url: requestAPI,
