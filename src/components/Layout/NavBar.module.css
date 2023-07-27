@@ -1,0 +1,31 @@
+.nav-container {
+  height: 10vh;
+  width: 100%;
+  padding: 1.5rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 600;
+  color: red;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.icon {
+  height: 100%;
+  width: auto;
+  cursor: pointer;
+}
+
+.backgroundColor {
+  background-color: #000;
+}
+
+@media only screen and (min-width: 768px) {
+  .icon {
+    height: 80%;
+    margin-right: 1rem;
+  }
+}

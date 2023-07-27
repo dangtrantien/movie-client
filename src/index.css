@@ -1,13 +1,114 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  /* font-weight: 500; */
+  font-size: 1.8rem;
+  line-height: 1.4;
+  color: #fff;
+  background-color: #000;
+  position: relative;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+main {
+  min-height: 100vh;
+  padding-bottom: 3rem;
+  position: relative;
+}
+
+.img-container {
+  display: flex;
+  gap: 2rem;
+  overflow-x: auto;
+}
+
+.img-container::-webkit-scrollbar {
+  height: 6px;
+}
+
+.img-container::-webkit-scrollbar-thumb {
+  height: 20px;
+  background-color: rgb(255, 255, 255, 0.25);
+  border-radius: 10px;
+}
+
+.img-container::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(255, 255, 255, 0.5);
+}
+
+.img-container img:hover {
+  animation: bump 1000ms ease-out;
+}
+
+.error-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.error-container h1 {
+  color: red;
+}
+
+.error-message {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes bump {
+  0% {
+    transform: scale(1);
+  }
+
+  10% {
+    transform: scale(1.1);
+  }
+
+  30% {
+    transform: scale(1.15);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: sacle(1);
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .img-container {
+    overflow: hidden;
+  }
+
+  .img-container:hover {
+    overflow-x: auto;
+  }
+}
+
+@media only screen and (min-width: 992px) {
 }

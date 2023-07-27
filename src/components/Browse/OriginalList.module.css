@@ -1,0 +1,13 @@
+.section-original {
+  margin-top: 5rem;
+  margin-left: 2rem;
+}
+
+.original-img--container {
+  height: 25rem;
+}
+
+.original-img--container img {
+  height: 23rem;
+  width: auto;
+}

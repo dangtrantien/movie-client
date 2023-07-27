@@ -1,25 +1,43 @@
-import logo from './logo.svg';
-import './App.css';
+import { lazy, Suspense } from 'react';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+
+import RootLayout from './pages/Root';
+import ErrorPage from './pages/Error';
+import IsLoading from './components/UI/IsLoading';
+
+const Browse = lazy(() => import('./pages/Browse'));
+const Search = lazy(() => import('./pages/Search'));
+
+// ==================================================
+
+const router = createBrowserRouter([
+  {
+    path: '/',
+    errorElement: <ErrorPage />,
+    element: <RootLayout />,
+    children: [
+      {
+        index: true,
+        element: (
+          <Suspense fallback={<IsLoading />}>
+            <Browse />
+          </Suspense>
+        ),
+      },
+      {
+        path: 'search',
+        element: (
+          <Suspense fallback={<IsLoading />}>
+            <Search />
+          </Suspense>
+        ),
+      },
+    ],
+  },
+]);
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return <RouterProvider router={router} />;
 }
 
 export default App;

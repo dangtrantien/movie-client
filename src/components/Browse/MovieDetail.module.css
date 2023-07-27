@@ -1,0 +1,29 @@
+.movie-detail--content {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.movie-detail--content h2 {
+  padding-bottom: 2rem;
+  font-size: 2rem;
+  border-bottom: 1px solid #fff;
+}
+
+.movie-detail--rate {
+  font-weight: 600;
+}
+
+.youtube-container {
+  width: 100%;
+  height: auto;
+  border: none;
+  flex: 1;
+}
+
+.img {
+  width: 100%;
+  height: auto;
+  flex: 1;
+}

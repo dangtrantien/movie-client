@@ -1,0 +1,53 @@
+.modal-container {
+  height: 100vh;
+  padding: 2rem 1.5rem;
+  background-color: #000;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 30;
+}
+
+.modal-content {
+  height: 100%;
+  font-size: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  position: relative;
+}
+
+.button {
+  font-size: 3rem;
+  position: absolute;
+  top: 1rem;
+  right: 0;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 768px) {
+  .modal-container {
+    height: 50vh;
+  }
+
+  .modal-content {
+    font-size: 85%;
+    flex-direction: row;
+  }
+
+  .button {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .modal-container {
+    height: 60vh;
+    padding: 2rem;
+  }
+
+  .modal-content {
+    font-size: 100%;
+  }
+}

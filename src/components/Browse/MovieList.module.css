@@ -1,0 +1,17 @@
+.movie-list--container {
+  margin-top: 4rem;
+  margin-left: 2rem;
+}
+
+.movie-img--container {
+  height: 15rem;
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+
+.movie-img--container img {
+  height: 13rem;
+  width: auto;
+  flex-shrink: 0;
+  cursor: pointer;
+}
