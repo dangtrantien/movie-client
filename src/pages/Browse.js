@@ -4,7 +4,7 @@ import MovieList from '../components/Browse/MovieList';
 
 // ==================================================
 
-const url = '/api/movies';
+const url = 'https://movie-server-xp1w.onrender.com/api/movies';
 const userToken = '8qlOkxz4wq';
 
 const requestAPIs = [
