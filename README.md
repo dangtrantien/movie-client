@@ -77,46 +77,46 @@ This project was deploy here: [https://movie-client-4tj0.onrender.com](https://m
 
 ```
 public
-├─ favicon.ico
-├─ index.html
-├─ logo192.png
-├─ logo512.png
-├─ manifest.json
-└─ robots.txt
+  ├─ favicon.ico
+  ├─ index.html
+  ├─ logo192.png
+  ├─ logo512.png
+  ├─ manifest.json
+  └─ robots.txt
 src
-├─ components
-│ │─ Browse
-│ │   │─ Banner.js
-│ │   │─ Banner.module.css
-│ │   │─ MovieDetail.js
-│ │   │─ MovieDetail.module.css
-│ │   │─ MovieList.js
-│ │   │─ MovieList.module.css
-│ │   │─ OriginalList.js
-│ │   └─ OriginalList.module.css
-│ ├─ Layout
-│ │   │─ NavBar.js
-│ │   └─ NavBar.module.css
-│ ├─ Search
-│ │   │─ ResultList.js
-│ │   │─ ResultList.module.css
-│ │   │─ SearchForm.js
-│ │   └─ SearchForm.module.css
-│ └─ UI
-│     │─ IsLoading.js
-│     │─ IsLoading.module.css
-│     │─ Modal.js
-│     └─ Modal.module.css
-├─ hooks
-│   └─ use-http.js
-│─ pages
-│   │─ Browse.js
-│   │─ Error.js
-│   │─ Root.js
-│   └─ Search.js
-│─ App.js
-│─ index.css
-└─ index.js
+  ├─ components
+  │   │─ Browse
+  │   │   │─ Banner.js
+  │   │   │─ Banner.module.css
+  │   │   │─ MovieDetail.js
+  │   │   │─ MovieDetail.module.css
+  │   │   │─ MovieList.js
+  │   │   │─ MovieList.module.css
+  │   │   │─ OriginalList.js
+  │   │   └─ OriginalList.module.css
+  │   ├─ Layout
+  │   │   │─ NavBar.js
+  │   │   └─ NavBar.module.css
+  │   ├─ Search
+  │   │   │─ ResultList.js
+  │   │   │─ ResultList.module.css
+  │   │   │─ SearchForm.js
+  │   │   └─ SearchForm.module.css
+  │   └─ UI
+  │       │─ IsLoading.js
+  │       │─ IsLoading.module.css
+  │       │─ Modal.js
+  │       └─ Modal.module.css
+  ├─ hooks
+  │   └─ use-http.js
+  │─ pages
+  │   │─ Browse.js
+  │   │─ Error.js
+  │   │─ Root.js
+  │   └─ Search.js
+  │─ App.js
+  │─ index.css
+  └─ index.js
 .gitignore
 package-lock.json
 package.json
