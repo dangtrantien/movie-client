@@ -69,13 +69,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-# Link Deploy
+## Link Deploy
 
 This project was deploy here: [https://movie-client-4tj0.onrender.com](https://movie-client-4tj0.onrender.com)
 
 ### This project has following structures:
 
-public
+`public
 ├─ favicon.ico
 ├─ index.html
 ├─ logo192.png
@@ -85,40 +85,40 @@ public
 src
 ├─ components
 │ │─ Browse
-│ │ │─ Banner.js
-│ │ │─ Banner.module.css
-│ │ │─ MovieDetail.js
-│ │ │─ MovieDetail.module.css
-│ │ │─ MovieList.js
-│ │ │─ MovieList.module.css
-│ │ │─ OriginalList.js
-│ │ └─ OriginalList.module.css
+│ │   │─ Banner.js
+│ │   │─ Banner.module.css
+│ │   │─ MovieDetail.js
+│ │   │─ MovieDetail.module.css
+│ │   │─ MovieList.js
+│ │   │─ MovieList.module.css
+│ │   │─ OriginalList.js
+│ │   └─ OriginalList.module.css
 │ ├─ Layout
-│ │ │─ NavBar.js
-│ │ └─ NavBar.module.css
+│ │   │─ NavBar.js
+│ │   └─ NavBar.module.css
 │ ├─ Search
-│ │ │─ ResultList.js
-│ │ │─ ResultList.module.css
-│ │ │─ SearchForm.js
-│ │ └─ SearchForm.module.css
+│ │   │─ ResultList.js
+│ │   │─ ResultList.module.css
+│ │   │─ SearchForm.js
+│ │   └─ SearchForm.module.css
 │ └─ UI
-│ │─ IsLoading.js
-│ │─ IsLoading.module.css
-│ │─ Modal.js
-│ └─ Modal.module.css
+│     │─ IsLoading.js
+│     │─ IsLoading.module.css
+│     │─ Modal.js
+│     └─ Modal.module.css
 ├─ hooks
-│ └─ use-http.js
+│   └─ use-http.js
 │─ pages
-│ │─ Browse.js
-│ │─ Error.js
-│ │─ Root.js
-│ └─ Search.js
+│   │─ Browse.js
+│   │─ Error.js
+│   │─ Root.js
+│   └─ Search.js
 │─ App.js
 │─ index.css
 └─ index.js
 .gitignore
 package-lock.json
-package.json
+package.json`
 
 - public: Folder contains root HTML for the Website.
 - src: Folder contains main code for building the Website:
