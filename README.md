@@ -76,12 +76,12 @@ This project was deploy here: [https://movie-client-4tj0.onrender.com](https://m
 ### This project has following structures:
 
 `public
-  favicon.ico
-  index.html
-  logo192.png
-  logo512.png
-  manifest.json
-  robots.txt
+favicon.ico
+index.html
+logo192.png
+logo512.png
+manifest.json
+robots.txt
 src
 ├─ components
 │ │─ Browse
