@@ -75,63 +75,65 @@ This project was deploy here: [https://movie-client-4tj0.onrender.com](https://m
 
 ### This project has following structures:
 
-`public
+public
 favicon.ico
 index.html
 logo192.png
 logo512.png
 manifest.json
 robots.txt
+
 src
 ├─ components
 │ │─ Browse
-│ │   │─ Banner.js
-│ │   │─ Banner.module.css
-│ │   │─ MovieDetail.js
-│ │   │─ MovieDetail.module.css
-│ │   │─ MovieList.js
-│ │   │─ MovieList.module.css
-│ │   │─ OriginalList.js
-│ │   └─ OriginalList.module.css
+│ │ │─ Banner.js
+│ │ │─ Banner.module.css
+│ │ │─ MovieDetail.js
+│ │ │─ MovieDetail.module.css
+│ │ │─ MovieList.js
+│ │ │─ MovieList.module.css
+│ │ │─ OriginalList.js
+│ │ └─ OriginalList.module.css
 │ ├─ Layout
-│ │   │─ NavBar.js
-│ │   └─ NavBar.module.css
+│ │ │─ NavBar.js
+│ │ └─ NavBar.module.css
 │ ├─ Search
-│ │   │─ ResultList.js
-│ │   │─ ResultList.module.css
-│ │   │─ SearchForm.js
-│ │   └─ SearchForm.module.css
+│ │ │─ ResultList.js
+│ │ │─ ResultList.module.css
+│ │ │─ SearchForm.js
+│ │ └─ SearchForm.module.css
 │ └─ UI
-│     │─ IsLoading.js
-│     │─ IsLoading.module.css
-│     │─ Modal.js
-│     └─ Modal.module.css
+│ │─ IsLoading.js
+│ │─ IsLoading.module.css
+│ │─ Modal.js
+│ └─ Modal.module.css
 ├─ hooks
-│   └─ use-http.js
+│ └─ use-http.js
 │─ pages
-│   │─ Browse.js
-│   │─ Error.js
-│   │─ Root.js
-│   └─ Search.js
+│ │─ Browse.js
+│ │─ Error.js
+│ │─ Root.js
+│ └─ Search.js
 │─ App.js
 │─ index.css
 └─ index.js
 .gitignore
 package-lock.json
-package.json`
+package.json
 
-- public: Folder contains root HTML for the Website.
-- src: Folder contains main code for building the Website:
-  - .css & .module.css: File CSS contains code for styling the Website.
-  - Browse: Folder contains file to create structure for the Home page.
-  - NavBar.js: File contains code to create navbar for the Website.
-  - Search: Folder contains file to create structure for the Search page.
-  - IsLoading.js: File contains code to create loading status before display a page.
-  - Modal.js: File contains code to create an overlay container.
-  - use-http.js: File contains code to fetch data with Hooks.
-  - Browse.js: File contains code to display the Home page.
-  - Error.js: File contains code to display the 404 page.
-  - Root.js: File contains code to display the layout of the Website.
-  - Search.js: File contains code to display the Search page.
+public: Folder contains root HTML for the Website.
+src: Folder contains main code for building the Website:
+
+- .css & .module.css: File CSS contains code for styling the Website.
+- Browse: Folder contains file to create structure for the Home page.
+- NavBar.js: File contains code to create navbar for the Website.
+- Search: Folder contains file to create structure for the Search page.
+- IsLoading.js: File contains code to create loading status before display a page.
+- Modal.js: File contains code to create an overlay container.
+- use-http.js: File contains code to fetch data with Hooks.
+- Browse.js: File contains code to display the Home page.
+- Error.js: File contains code to display the 404 page.
+- Root.js: File contains code to display the layout of the Website.
+- Search.js: File contains code to display the Search page.
 - .gitignore: File contains code to ignore some folder when pushing project on Github.
 - package.json & package-lock.json: File contains libraries code for building the Website.
