@@ -126,7 +126,7 @@ package.json
 - src: Folder contains main code for building the Website:
   - .css & .module.css: File CSS contains code for styling the Website.
   - Browse: Folder contains file to create structure for the Home page.
-  - NavBar.js: File contains code to create navbar for the Website.
+  - Layout: Folder contains file to create navbar for the Website.
   - Search: Folder contains file to create structure for the Search page.
   - IsLoading.js: File contains code to create loading status before display a page.
   - Modal.js: File contains code to create an overlay container.
