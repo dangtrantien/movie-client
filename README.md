@@ -135,5 +135,6 @@ package.json
   - Error.js: File contains code to display the 404 page.
   - Root.js: File contains code to display the layout of the Website.
   - Search.js: File contains code to display the Search page.
+  - App.js & index.js: File contains code to create router path for the Website.
 - .gitignore: File contains code to ignore some folder when pushing project on Github.
 - package.json & package-lock.json: File contains libraries code for building the Website.
