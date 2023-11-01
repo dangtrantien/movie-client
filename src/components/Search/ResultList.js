@@ -38,7 +38,7 @@ const ResultList = (props) => {
 
     if (keyword) {
       const requestAPI =
-        'https://movie-server-xp1w.onrender.com/api/movies/search?page=&token=8qlOkxz4wq';
+        'https://movie-server-dangtrantien.vercel.app/api/movies/search?page=&token=8qlOkxz4wq';
 
       sendRequest({
         url: requestAPI,
